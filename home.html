@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    <title>3D Website</title>
+</head>
+
+<body>
+    <a-scene background="black">
+        <!-- Sun -->
+        <a-entity rotation="0 0 0" scale="15 15 15">
+            <a-sphere position="0 0 0" color="yellow"></a-sphere>
+        </a-entity>
+        <!-- Mercury -->
+        <a-entity scale="5.5 5.5 5.5" rotation=" 0 0"
+            animation="property: rotation; to: 0 360 0; loop: true; dur: 10000">
+            <a-sphere position="5 0 0" color="grey"></a-sphere>
+        </a-entity>
+        <!-- Venus -->
+        <a-entity scale="5.75 5.75 5.75" rotation="0 0 0"
+            animation="property: rotation; to: 0 360 0; loop: true; dur: 20000">
+            <a-sphere position="10 0 0" color="#966919"></a-sphere>
+        </a-entity>
+        <!-- Earth -->
+        <a-entity scale="9.5 9.5 9.5" rotation="0 0 0"
+            animation="property: rotation; to: 0 360 0; loop: true; dur: 30000">
+            <a-sphere position="15 0 0" color="blue"></a-sphere>
+        </a-entity>
+        <!-- Mars -->
+        <a-entity scale="6 6 6" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 40000">
+            <a-sphere position="20 0 0" color="red"></a-sphere>
+        </a-entity>
+        <!-- Jupiter -->
+        <a-entity scale="7 7 7" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 48000">
+            <a-sphere position="25 0 0" color="orange"></a-sphere>
+        </a-entity>
+        <!-- Saturn -->
+        <a-entity scale="9 9 9" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 52000">
+            <a-sphere position="30 0 0" color="brown"></a-sphere>
+        </a-entity>
+        <!-- Uranus -->
+        <a-entity scale="8.5 8.5 8.5" rotation="0 0 0"
+            animation="property: rotation; to: 0 360 0; loop: true; dur: 75000">
+            <a-sphere position="35 0 0" color="cyan"></a-sphere>
+        </a-entity>
+        <!-- Neptune -->
+        <a-entity scale="8 8 8" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 90000">
+            <a-sphere position="40 0 0" color="blue"></a-sphere>
+        </a-entity>
+
+    </a-scene>
+</body>
+
+</html>
